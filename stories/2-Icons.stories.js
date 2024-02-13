@@ -1,11 +1,12 @@
 import React from "react";
 import * as Icons from "../components/icons";
+import Photo from "../components/photo";
 
 export default {
   title: "Icons",
 };
 
-export const emoji = {
+export const Icon = {
   render: () => (
     <div className="icons">
       <Icons.ArrowBottom />
@@ -37,5 +38,10 @@ export const emoji = {
       <Icons.TimelineProp />
       <Icons.Twitter />
     </div>
+  ),
+};
+export const ProfilePhoto = {
+  render: () => (
+    <Photo src="https://pbs.twimg.com/profile_images/1589281180238680070/x-cdi9Py_400x400.jpg" />
   ),
 };
