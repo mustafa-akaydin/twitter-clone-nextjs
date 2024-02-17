@@ -4,7 +4,7 @@ import cn from "classnames";
 
 function TextTitle({ bold = true, children }) {
   return (
-    <h2 className={cn([styles.title, bold && styles.bold])}>{children}</h2>
+    <p className={cn([styles.title, bold && styles.bold])}>{children}</p>
   );
 }
 
