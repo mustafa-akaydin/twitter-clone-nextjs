@@ -557,7 +557,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ \"./node_modules/next/router.js\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../constants */ \"./constants/index.js\");\n/* harmony import */ var _navigation_module_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./navigation.module.css */ \"./components/navigation.module.css\");\n/* harmony import */ var _navigation_module_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_navigation_module_css__WEBPACK_IMPORTED_MODULE_8__);\n/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! classnames */ \"classnames\");\n/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _navigation_button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./navigation-button */ \"./components/navigation-button.js\");\n/* harmony import */ var _text_title__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./text-title */ \"./components/text-title.js\");\n/* harmony import */ var _icons__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./icons */ \"./components/icons/index.js\");\n\n\n\n\n\n\n\n\n\nfunction Navigation({ flat = false }) {\n    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_2__.useRouter)();\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"nav\", {\n        className: (_navigation_module_css__WEBPACK_IMPORTED_MODULE_8___default().nav),\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_navigation_button__WEBPACK_IMPORTED_MODULE_5__[\"default\"], {\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_icons__WEBPACK_IMPORTED_MODULE_7__.Twitter, {\n                    style: {\n                        fontSize: 30\n                    }\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\MUSTAFA\\\\Documents\\\\GitHub\\\\twitter-clone-nextjs\\\\components\\\\navigation.js\",\n                    lineNumber: 19,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\MUSTAFA\\\\Documents\\\\GitHub\\\\twitter-clone-nextjs\\\\components\\\\navigation.js\",\n                lineNumber: 18,\n                columnNumber: 7\n            }, this),\n            _constants__WEBPACK_IMPORTED_MODULE_3__.MENU.map((menu)=>{\n                const showTitle = !flat && menu.title.length > 0;\n                const selected = router.pathname === menu.path;\n                return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_navigation_button__WEBPACK_IMPORTED_MODULE_5__[\"default\"], {\n                    notify: menu.notify,\n                    selected: selected,\n                    href: menu.path,\n                    className: classnames__WEBPACK_IMPORTED_MODULE_4___default()((_navigation_module_css__WEBPACK_IMPORTED_MODULE_8___default().navButton), menu.key),\n                    children: [\n                        selected ? menu.iconSelected : menu.icon,\n                        showTitle && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_text_title__WEBPACK_IMPORTED_MODULE_6__[\"default\"], {\n                            children: menu.title\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\MUSTAFA\\\\Documents\\\\GitHub\\\\twitter-clone-nextjs\\\\components\\\\navigation.js\",\n                            lineNumber: 34,\n                            columnNumber: 27\n                        }, this)\n                    ]\n                }, menu.key, true, {\n                    fileName: \"C:\\\\Users\\\\MUSTAFA\\\\Documents\\\\GitHub\\\\twitter-clone-nextjs\\\\components\\\\navigation.js\",\n                    lineNumber: 26,\n                    columnNumber: 11\n                }, this);\n            })\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\MUSTAFA\\\\Documents\\\\GitHub\\\\twitter-clone-nextjs\\\\components\\\\navigation.js\",\n        lineNumber: 17,\n        columnNumber: 5\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Navigation);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL25hdmlnYXRpb24uanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUEwQjtBQUNjO0FBRUo7QUFDUztBQUNqQjtBQUV1QjtBQUNkO0FBRUg7QUFFbEMsU0FBU1EsV0FBVyxFQUFFQyxPQUFPLEtBQUssRUFBRTtJQUNsQyxNQUFNQyxTQUFTVCxzREFBU0E7SUFFeEIscUJBQ0UsOERBQUNVO1FBQUlDLFdBQVdULG1FQUFVOzswQkFDeEIsOERBQUNFLDBEQUFnQkE7MEJBQ2YsNEVBQUNFLDJDQUFPQTtvQkFBQ00sT0FBTzt3QkFBRUMsVUFBVTtvQkFBRzs7Ozs7Ozs7Ozs7WUFFaENaLDRDQUFJQSxDQUFDYSxHQUFHLENBQUMsQ0FBQ0M7Z0JBQ1QsTUFBTUMsWUFBWSxDQUFDUixRQUFRTyxLQUFLRSxLQUFLLENBQUNDLE1BQU0sR0FBRztnQkFDL0MsTUFBTUMsV0FBV1YsT0FBT1csUUFBUSxLQUFLTCxLQUFLTSxJQUFJO2dCQUU5QyxxQkFDRSw4REFBQ2pCLDBEQUFnQkE7b0JBRWZrQixRQUFRUCxLQUFLTyxNQUFNO29CQUNuQkgsVUFBVUE7b0JBQ1ZJLE1BQU1SLEtBQUtNLElBQUk7b0JBQ2ZWLFdBQVdSLGlEQUFFQSxDQUFDRCx5RUFBZ0IsRUFBRWEsS0FBS1UsR0FBRzs7d0JBRXZDTixXQUFXSixLQUFLVyxZQUFZLEdBQUdYLEtBQUtZLElBQUk7d0JBQ3hDWCwyQkFBYSw4REFBQ1gsbURBQVNBO3NDQUFFVSxLQUFLRSxLQUFLOzs7Ozs7O21CQVAvQkYsS0FBS1UsR0FBRzs7Ozs7WUFVbkI7Ozs7Ozs7QUFHTjtBQUVBLGlFQUFlbEIsVUFBVUEsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3R3aXR0ZXItY2xvbmUvLi9jb21wb25lbnRzL25hdmlnYXRpb24uanM/MDg0OCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XHJcbmltcG9ydCB7IHVzZVJvdXRlciB9IGZyb20gXCJuZXh0L3JvdXRlclwiO1xyXG5cclxuaW1wb3J0IHsgTUVOVSB9IGZyb20gXCIuLi9jb25zdGFudHNcIjtcclxuaW1wb3J0IHN0eWxlcyBmcm9tIFwiLi9uYXZpZ2F0aW9uLm1vZHVsZS5jc3NcIjtcclxuaW1wb3J0IGNuIGZyb20gXCJjbGFzc25hbWVzXCI7XHJcblxyXG5pbXBvcnQgTmF2aWdhdGlvbkJ1dHRvbiBmcm9tIFwiLi9uYXZpZ2F0aW9uLWJ1dHRvblwiO1xyXG5pbXBvcnQgVGV4dFRpdGxlIGZyb20gXCIuL3RleHQtdGl0bGVcIjtcclxuXHJcbmltcG9ydCB7IFR3aXR0ZXIgfSBmcm9tIFwiLi9pY29uc1wiO1xyXG5cclxuZnVuY3Rpb24gTmF2aWdhdGlvbih7IGZsYXQgPSBmYWxzZSB9KSB7XHJcbiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7XHJcblxyXG4gIHJldHVybiAoXHJcbiAgICA8bmF2IGNsYXNzTmFtZT17c3R5bGVzLm5hdn0+XHJcbiAgICAgIDxOYXZpZ2F0aW9uQnV0dG9uPlxyXG4gICAgICAgIDxUd2l0dGVyIHN0eWxlPXt7IGZvbnRTaXplOiAzMCB9fSAvPlxyXG4gICAgICA8L05hdmlnYXRpb25CdXR0b24+XHJcbiAgICAgIHtNRU5VLm1hcCgobWVudSkgPT4ge1xyXG4gICAgICAgIGNvbnN0IHNob3dUaXRsZSA9ICFmbGF0ICYmIG1lbnUudGl0bGUubGVuZ3RoID4gMDtcclxuICAgICAgICBjb25zdCBzZWxlY3RlZCA9IHJvdXRlci5wYXRobmFtZSA9PT0gbWVudS5wYXRoO1xyXG5cclxuICAgICAgICByZXR1cm4gKFxyXG4gICAgICAgICAgPE5hdmlnYXRpb25CdXR0b25cclxuICAgICAgICAgICAga2V5PXttZW51LmtleX1cclxuICAgICAgICAgICAgbm90aWZ5PXttZW51Lm5vdGlmeX1cclxuICAgICAgICAgICAgc2VsZWN0ZWQ9e3NlbGVjdGVkfVxyXG4gICAgICAgICAgICBocmVmPXttZW51LnBhdGh9XHJcbiAgICAgICAgICAgIGNsYXNzTmFtZT17Y24oc3R5bGVzLm5hdkJ1dHRvbiwgbWVudS5rZXkpfVxyXG4gICAgICAgICAgPlxyXG4gICAgICAgICAgICB7c2VsZWN0ZWQgPyBtZW51Lmljb25TZWxlY3RlZCA6IG1lbnUuaWNvbn1cclxuICAgICAgICAgICAge3Nob3dUaXRsZSAmJiA8VGV4dFRpdGxlPnttZW51LnRpdGxlfTwvVGV4dFRpdGxlPn1cclxuICAgICAgICAgIDwvTmF2aWdhdGlvbkJ1dHRvbj5cclxuICAgICAgICApO1xyXG4gICAgICB9KX1cclxuICAgIDwvbmF2PlxyXG4gICk7XHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IE5hdmlnYXRpb247XHJcbiJdLCJuYW1lcyI6WyJSZWFjdCIsInVzZVJvdXRlciIsIk1FTlUiLCJzdHlsZXMiLCJjbiIsIk5hdmlnYXRpb25CdXR0b24iLCJUZXh0VGl0bGUiLCJUd2l0dGVyIiwiTmF2aWdhdGlvbiIsImZsYXQiLCJyb3V0ZXIiLCJuYXYiLCJjbGFzc05hbWUiLCJzdHlsZSIsImZvbnRTaXplIiwibWFwIiwibWVudSIsInNob3dUaXRsZSIsInRpdGxlIiwibGVuZ3RoIiwic2VsZWN0ZWQiLCJwYXRobmFtZSIsInBhdGgiLCJub3RpZnkiLCJocmVmIiwibmF2QnV0dG9uIiwia2V5IiwiaWNvblNlbGVjdGVkIiwiaWNvbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/navigation.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   Navigation: () => (/* binding */ Navigation),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/navigation */ \"./node_modules/next/navigation.js\");\n/* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_navigation__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../constants */ \"./constants/index.js\");\n/* harmony import */ var _navigation_module_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./navigation.module.css */ \"./components/navigation.module.css\");\n/* harmony import */ var _navigation_module_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_navigation_module_css__WEBPACK_IMPORTED_MODULE_7__);\n/* harmony import */ var _navigation_button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./navigation-button */ \"./components/navigation-button.js\");\n/* harmony import */ var _text_title__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./text-title */ \"./components/text-title.js\");\n/* harmony import */ var _icons__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./icons */ \"./components/icons/index.js\");\n\n\n\n\n\n\n\n\nfunction Navigation({ flat = false }) {\n    const router = (0,next_navigation__WEBPACK_IMPORTED_MODULE_2__.useRouter)();\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"nav\", {\n        className: (_navigation_module_css__WEBPACK_IMPORTED_MODULE_7___default().nav),\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_navigation_button__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_icons__WEBPACK_IMPORTED_MODULE_6__.Twitter, {\n                    style: {\n                        fontSize: 30\n                    }\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\MUSTAFA\\\\Documents\\\\GitHub\\\\twitter-clone-nextjs\\\\components\\\\navigation.js\",\n                    lineNumber: 18,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\MUSTAFA\\\\Documents\\\\GitHub\\\\twitter-clone-nextjs\\\\components\\\\navigation.js\",\n                lineNumber: 17,\n                columnNumber: 7\n            }, this),\n            _constants__WEBPACK_IMPORTED_MODULE_3__.MENU.map((menu)=>{\n                const showTitle = !flat || menu.title.length === 0;\n                const selected = router.asPath === menu.path;\n                return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_navigation_button__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n                    notify: menu.notify,\n                    selected: selected,\n                    href: menu.path,\n                    className: (_navigation_module_css__WEBPACK_IMPORTED_MODULE_7___default().navButton),\n                    children: [\n                        selected ? menu.iconSelected : menu.icon,\n                        showTitle && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_text_title__WEBPACK_IMPORTED_MODULE_5__[\"default\"], {\n                            children: menu.title\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\MUSTAFA\\\\Documents\\\\GitHub\\\\twitter-clone-nextjs\\\\components\\\\navigation.js\",\n                            lineNumber: 32,\n                            columnNumber: 27\n                        }, this)\n                    ]\n                }, menu.key, true, {\n                    fileName: \"C:\\\\Users\\\\MUSTAFA\\\\Documents\\\\GitHub\\\\twitter-clone-nextjs\\\\components\\\\navigation.js\",\n                    lineNumber: 24,\n                    columnNumber: 11\n                }, this);\n            })\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\MUSTAFA\\\\Documents\\\\GitHub\\\\twitter-clone-nextjs\\\\components\\\\navigation.js\",\n        lineNumber: 16,\n        columnNumber: 5\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Navigation);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL25hdmlnYXRpb24uanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQTBCO0FBQ2tCO0FBRVI7QUFDUztBQUVNO0FBQ2Q7QUFFSDtBQUUzQixTQUFTTyxXQUFXLEVBQUVDLE9BQU8sS0FBSyxFQUFDO0lBQ3hDLE1BQU1DLFNBQVNSLDBEQUFTQTtJQUV4QixxQkFDRSw4REFBQ1M7UUFBSUMsV0FBV1IsbUVBQVU7OzBCQUN4Qiw4REFBQ0MsMERBQWdCQTswQkFDZiw0RUFBQ0UsMkNBQU9BO29CQUFDTSxPQUFPO3dCQUFFQyxVQUFVO29CQUFHOzs7Ozs7Ozs7OztZQUVoQ1gsNENBQUlBLENBQUNZLEdBQUcsQ0FBQyxDQUFDQztnQkFDVCxNQUFNQyxZQUFZLENBQUNSLFFBQVFPLEtBQUtFLEtBQUssQ0FBQ0MsTUFBTSxLQUFLO2dCQUNqRCxNQUFNQyxXQUFXVixPQUFPVyxNQUFNLEtBQUtMLEtBQUtNLElBQUk7Z0JBQzVDLHFCQUNFLDhEQUFDakIsMERBQWdCQTtvQkFFZmtCLFFBQVFQLEtBQUtPLE1BQU07b0JBQ25CSCxVQUFVQTtvQkFDVkksTUFBTVIsS0FBS00sSUFBSTtvQkFDZlYsV0FBV1IseUVBQWdCOzt3QkFFMUJnQixXQUFXSixLQUFLVSxZQUFZLEdBQUdWLEtBQUtXLElBQUk7d0JBQ3hDViwyQkFBYSw4REFBQ1gsbURBQVNBO3NDQUFFVSxLQUFLRSxLQUFLOzs7Ozs7O21CQVAvQkYsS0FBS1ksR0FBRzs7Ozs7WUFVbkI7Ozs7Ozs7QUFHTjtBQUVBLGlFQUFlcEIsVUFBVUEsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3R3aXR0ZXItY2xvbmUvLi9jb21wb25lbnRzL25hdmlnYXRpb24uanM/MDg0OCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XHJcbmltcG9ydCB7IHVzZVJvdXRlciB9IGZyb20gXCJuZXh0L25hdmlnYXRpb25cIjtcclxuXHJcbmltcG9ydCB7IE1FTlUgfSBmcm9tIFwiLi4vY29uc3RhbnRzXCI7XHJcbmltcG9ydCBzdHlsZXMgZnJvbSBcIi4vbmF2aWdhdGlvbi5tb2R1bGUuY3NzXCI7XHJcblxyXG5pbXBvcnQgTmF2aWdhdGlvbkJ1dHRvbiBmcm9tIFwiLi9uYXZpZ2F0aW9uLWJ1dHRvblwiO1xyXG5pbXBvcnQgVGV4dFRpdGxlIGZyb20gXCIuL3RleHQtdGl0bGVcIjtcclxuXHJcbmltcG9ydCB7IFR3aXR0ZXIgfSBmcm9tIFwiLi9pY29uc1wiO1xyXG5cclxuZXhwb3J0IGZ1bmN0aW9uIE5hdmlnYXRpb24oeyBmbGF0ID0gZmFsc2V9KSB7XHJcbiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7XHJcbiAgXHJcbiAgcmV0dXJuIChcclxuICAgIDxuYXYgY2xhc3NOYW1lPXtzdHlsZXMubmF2fT5cclxuICAgICAgPE5hdmlnYXRpb25CdXR0b24+XHJcbiAgICAgICAgPFR3aXR0ZXIgc3R5bGU9e3sgZm9udFNpemU6IDMwIH19IC8+XHJcbiAgICAgIDwvTmF2aWdhdGlvbkJ1dHRvbj5cclxuICAgICAge01FTlUubWFwKChtZW51KSA9PiB7XHJcbiAgICAgICAgY29uc3Qgc2hvd1RpdGxlID0gIWZsYXQgfHwgbWVudS50aXRsZS5sZW5ndGggPT09IDA7XHJcbiAgICAgICAgY29uc3Qgc2VsZWN0ZWQgPSByb3V0ZXIuYXNQYXRoID09PSBtZW51LnBhdGg7XHJcbiAgICAgICAgcmV0dXJuIChcclxuICAgICAgICAgIDxOYXZpZ2F0aW9uQnV0dG9uXHJcbiAgICAgICAgICAgIGtleT17bWVudS5rZXl9XHJcbiAgICAgICAgICAgIG5vdGlmeT17bWVudS5ub3RpZnl9XHJcbiAgICAgICAgICAgIHNlbGVjdGVkPXtzZWxlY3RlZH1cclxuICAgICAgICAgICAgaHJlZj17bWVudS5wYXRofVxyXG4gICAgICAgICAgICBjbGFzc05hbWU9e3N0eWxlcy5uYXZCdXR0b259XHJcbiAgICAgICAgICA+XHJcbiAgICAgICAgICAgIHtzZWxlY3RlZCA/IG1lbnUuaWNvblNlbGVjdGVkIDogbWVudS5pY29ufVxyXG4gICAgICAgICAgICB7c2hvd1RpdGxlICYmIDxUZXh0VGl0bGU+e21lbnUudGl0bGV9PC9UZXh0VGl0bGU+fVxyXG4gICAgICAgICAgPC9OYXZpZ2F0aW9uQnV0dG9uPlxyXG4gICAgICAgICk7XHJcbiAgICAgIH0pfVxyXG4gICAgPC9uYXY+XHJcbiAgKTtcclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgTmF2aWdhdGlvbjtcclxuIl0sIm5hbWVzIjpbIlJlYWN0IiwidXNlUm91dGVyIiwiTUVOVSIsInN0eWxlcyIsIk5hdmlnYXRpb25CdXR0b24iLCJUZXh0VGl0bGUiLCJUd2l0dGVyIiwiTmF2aWdhdGlvbiIsImZsYXQiLCJyb3V0ZXIiLCJuYXYiLCJjbGFzc05hbWUiLCJzdHlsZSIsImZvbnRTaXplIiwibWFwIiwibWVudSIsInNob3dUaXRsZSIsInRpdGxlIiwibGVuZ3RoIiwic2VsZWN0ZWQiLCJhc1BhdGgiLCJwYXRoIiwibm90aWZ5IiwiaHJlZiIsIm5hdkJ1dHRvbiIsImljb25TZWxlY3RlZCIsImljb24iLCJrZXkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/navigation.js\n");
 
 /***/ }),
 
@@ -681,6 +681,39 @@ module.exports = require("classnames");
 
 /***/ }),
 
+/***/ "./action-async-storage.external":
+/*!*******************************************************************************!*\
+  !*** external "next/dist/client/components/action-async-storage.external.js" ***!
+  \*******************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/client/components/action-async-storage.external.js");
+
+/***/ }),
+
+/***/ "./request-async-storage.external":
+/*!********************************************************************************!*\
+  !*** external "next/dist/client/components/request-async-storage.external.js" ***!
+  \********************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/client/components/request-async-storage.external.js");
+
+/***/ }),
+
+/***/ "./static-generation-async-storage.external":
+/*!******************************************************************************************!*\
+  !*** external "next/dist/client/components/static-generation-async-storage.external.js" ***!
+  \******************************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/client/components/static-generation-async-storage.external.js");
+
+/***/ }),
+
 /***/ "next/dist/compiled/next-server/pages.runtime.dev.js":
 /*!**********************************************************************!*\
   !*** external "next/dist/compiled/next-server/pages.runtime.dev.js" ***!
@@ -700,17 +733,6 @@ module.exports = require("next/dist/compiled/next-server/pages.runtime.dev.js");
 
 "use strict";
 module.exports = require("react");
-
-/***/ }),
-
-/***/ "react-dom":
-/*!****************************!*\
-  !*** external "react-dom" ***!
-  \****************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("react-dom");
 
 /***/ }),
 
@@ -736,17 +758,6 @@ module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
-/***/ "fs":
-/*!*********************!*\
-  !*** external "fs" ***!
-  \*********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("fs");
-
-/***/ }),
-
 /***/ "path":
 /*!***********************!*\
   !*** external "path" ***!
@@ -755,28 +766,6 @@ module.exports = require("fs");
 
 "use strict";
 module.exports = require("path");
-
-/***/ }),
-
-/***/ "stream":
-/*!*************************!*\
-  !*** external "stream" ***!
-  \*************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("stream");
-
-/***/ }),
-
-/***/ "zlib":
-/*!***********************!*\
-  !*** external "zlib" ***!
-  \***********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("zlib");
 
 /***/ })
 
