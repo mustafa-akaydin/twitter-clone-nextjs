@@ -1,100 +1,32 @@
 import React from "react";
+import { useRouter } from "next/router";
+
+import { MENU } from "../constants";
 import styles from "./navigation.module.css";
 
 import NavigationButton from "./navigation-button";
 import TextTitle from "./text-title";
 
-import {
-  Twitter,
-  Home,
-  HomeFill,
-  Explore,
-  ExploreFill,
-  Messages,
-  MessagesFill,
-  Lists,
-  ListsFill,
-  Profile,
-  ProfileFill,
-  Bookmark,
-  BookmarkFill,
-  Notification,
-  NotificationFill,
-  More,
-} from "./icons";
+import { Twitter } from "./icons";
 
-const MENU = [
-  {
-    key: "home",
-    icon: <Home />,
-    iconSelected: <HomeFill />,
-    title: "Home",
-    notify: 0,
-  },
-  {
-    key: "explore",
-    icon: <Explore />,
-    iconSelected: <ExploreFill />,
-    title: "Explore",
-    notify: 0,
-  },
-  {
-    key: "notification",
-    icon: <Notification />,
-    iconSelected: <NotificationFill />,
-    title: "Notification",
-    notify: 17,
-  },
-  {
-    key: "messages",
-    icon: <Messages />,
-    iconSelected: <MessagesFill />,
-    title: "Messages",
-    notify: 0,
-  },
-  {
-    key: "bookmark",
-    icon: <Bookmark />,
-    iconSelected: <BookmarkFill />,
-    title: "Bookmark",
-    notify: 0,
-  },
-  {
-    key: "lists",
-    icon: <Lists />,
-    iconSelected: <ListsFill />,
-    title: "Lists",
-    notify: 0,
-  },
-  {
-    key: "profile",
-    icon: <Profile />,
-    iconSelected: <ProfileFill />,
-    title: "Profile",
-    notify: 0,
-  },
-  {
-    key: "more",
-    icon: <More />,
-    title: "More",
-    notify: 0,
-  },
-];
-
-function Navigation({ flat = false, selectedKey = "home" }) {
+export function Navigation({ flat = false}) {
+  const router = useRouter();
+  
   return (
     <nav className={styles.nav}>
       <NavigationButton>
-        <Twitter />
+        <Twitter style={{ fontSize: 30 }} />
       </NavigationButton>
       {MENU.map((menu) => {
         const showTitle = !flat || menu.title.length === 0;
-        const selected = selectedKey === menu.key;
+        const selected = router.asPath === menu.path;
         return (
           <NavigationButton
             key={menu.key}
             notify={menu.notify}
             selected={selected}
+            href={menu.path}
+            className={styles.navButton}
           >
             {selected ? menu.iconSelected : menu.icon}
             {showTitle && <TextTitle>{menu.title}</TextTitle>}
