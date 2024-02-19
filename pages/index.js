@@ -5,7 +5,7 @@ import Layout from "../components/layout";
 
 function Home() {
 
-  return <Layout>Anasayfa</Layout>;
+  return <Layout>Home</Layout>;
 }
 
 export default Home;
