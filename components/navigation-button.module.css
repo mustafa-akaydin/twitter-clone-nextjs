@@ -1,3 +1,4 @@
+
 .navButton {
   position: relative;
   padding: 10px;
@@ -10,10 +11,20 @@
       margin-right: 15px;
     }
   }
+
+  &:global(.twitter) {
+    color: var(--c-theme);
+    
+    :global(html:not(.light)) & {
+      color: white;
+    }
+  }
+
 }
 .navButtonSelected {
   color: var(--c-theme);
 }
+
 .notify {
   position: absolute;
   left: 20px;

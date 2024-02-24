@@ -2,12 +2,12 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/bookmarks": "pages/bookmarks.js",
+  "/more": "pages/more.js",
   "/": "pages/index.js",
   "/notifications": "pages/notifications.js",
-  "/messages": "pages/messages.js",
   "/explore": "pages/explore.js",
-  "/lists": "pages/lists.js",
+  "/bookmarks": "pages/bookmarks.js",
   "/profile": "pages/profile.js",
-  "/more": "pages/more.js"
+  "/messages": "pages/messages.js",
+  "/lists": "pages/lists.js"
 }

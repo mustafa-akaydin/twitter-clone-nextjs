@@ -16,7 +16,7 @@ function NavigationButton({
     <Button
       className={cn(
         styles.navButton,
-        selected && styles.navButtonSelected,
+        selected & styles.navButtonSelected,
         className
       )}
       href={href}

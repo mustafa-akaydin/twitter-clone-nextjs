@@ -7,7 +7,7 @@ import Link from "next/link";
 function LinkButton({ href, children, ...props }) {
   return (
     <Link href={href} legacyBehavior>
-      <a {...props}>{children}</a>
+      <a className={styles.a} {...props}>{children}</a>
     </Link>
   );
 }
