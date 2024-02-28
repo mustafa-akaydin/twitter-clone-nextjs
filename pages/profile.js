@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
-import Layout from "../components/layout";
+import Layout from '../components/layout'
 
 function ProfilePage() {
-  return <Layout>Profile</Layout>;
+  return <Layout>Profile</Layout>
 }
 
-export default ProfilePage;
+export default ProfilePage

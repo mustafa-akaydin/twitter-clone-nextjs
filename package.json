@@ -21,6 +21,7 @@
     "browserify-zlib": "^0.2.0",
     "buffer": "^6.0.3",
     "classnames": "^2.5.1",
+    "date-fns": "^3.3.1",
     "next": "^14.1.0",
     "path": "^0.12.7",
     "path-browserify": "^1.0.1",
@@ -29,6 +30,8 @@
     "react-dom": "^18.2.0",
     "stream": "^0.0.2",
     "stream-browserify": "^3.0.0",
+    "swr": "^2.2.5",
+    "twit": "^2.2.11",
     "util": "^0.12.5"
   },
   "devDependencies": {

@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
-import Layout from "../components/layout";
+import Layout from '../components/layout'
 
 function BookmarksPage() {
-  return <Layout>Bookmarks</Layout>;
+  return <Layout>Bookmarks</Layout>
 }
 
-export default BookmarksPage;
+export default BookmarksPage

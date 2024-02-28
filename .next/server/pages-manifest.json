@@ -1,13 +1,13 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/more": "pages/more.js",
+  "/_error": "pages/_error.js",
   "/": "pages/index.js",
-  "/notifications": "pages/notifications.js",
   "/explore": "pages/explore.js",
-  "/bookmarks": "pages/bookmarks.js",
   "/profile": "pages/profile.js",
+  "/lists": "pages/lists.js",
+  "/notifications": "pages/notifications.js",
   "/messages": "pages/messages.js",
-  "/lists": "pages/lists.js"
+  "/bookmarks": "pages/bookmarks.js",
+  "/more": "pages/more.js"
 }

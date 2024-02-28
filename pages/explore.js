@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
-import Layout from "../components/layout";
+import Layout from '../components/layout'
 
 function ExplorePage() {
-  return <Layout>explore</Layout>;
+  return <Layout>Explore</Layout>
 }
 
-export default ExplorePage;
+export default ExplorePage

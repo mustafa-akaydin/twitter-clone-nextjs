@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
-import Layout from "../components/layout";
+import Layout from '../components/layout'
 
-function NotificationPage() {
-  return <Layout>Notifications</Layout>;
+function NotificationsPage() {
+  return <Layout>Notifications</Layout>
 }
 
-export default NotificationPage;
+export default NotificationsPage
